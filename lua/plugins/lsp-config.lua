@@ -28,6 +28,7 @@ return {
         capabilities = capabilities,
       })
       lspconfig.pyright.setup({})
+      lspconfig.ruff.setup({})
 
       vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
       vim.keymap.set("n", "gd", vim.lsp.buf.definition, {})
