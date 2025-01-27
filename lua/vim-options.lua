@@ -3,11 +3,12 @@
 
 vim.cmd("set relativenumber")
 vim.opt.number = true
--- vim.api.nvim_set_hl(0, "LineNrAbove", { fg = "#51B3EC", bold = true })
 vim.api.nvim_set_hl(0, "LineNr", { fg = "white", bold = true })
--- vim.api.nvim_set_hl(0, "LineNrBelow", { fg = "#FB508F", bold = true })
-vim.opt.splitbelow = true
 
+-- remap comment shortcut
+-- vim.api.nvim_set_keymap("n", "<C-/>", "")
+
+vim.opt.splitbelow = true
 vim.opt.splitright = true
 
 vim.opt.wrap = false

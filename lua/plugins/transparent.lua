@@ -29,6 +29,7 @@ return {
         "StatusLine",
         "StatusLineNC",
         "EndOfBuffer",
+        "Harpoon"
       },
       -- table: additional groups that should be cleared
       extra_groups = {
