@@ -7,7 +7,7 @@ return {
 
     config = function()
       -- activate color theme
-      vim.cmd.colorscheme "catppuccin-macchiato"
+      -- vim.cmd.colorscheme "catppuccin-macchiato"
     end
   }
 }
